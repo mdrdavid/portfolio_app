@@ -2,6 +2,8 @@ import React from "react";
 import "./menu.css";
 import { Sidelinks } from "../sidemenu/sideMenuIcons"
 import { Link } from "react-router-dom";
+import davi from "../../assets/images/davi.jpg"
+
 
 
 const sideBarLinks = {
@@ -29,8 +31,16 @@ const Menu = () => {
     <>
       <div className="sidebar">
         <div className="profile">
-          
-        <Link to="/" style={{ textDecoration: "none", color: "black" }}>DAVID MATOVU</Link>
+          <img src={davi} alt="" style={{border: "3px solid black", 
+          margin: "15px auto",
+          display: "block",
+          width: "120px",
+          border: "8px solid #2c2f3f",
+          borderRadius: "50%", 
+          height: "120px"}}/>
+        <Link to="/" style={{ textDecoration: "none", color: "white", marginTop: "10px"}}>
+          <h1>DAVID MATOVU</h1>
+          </Link>
         </div>
         
         {generateLinkContiner()}
