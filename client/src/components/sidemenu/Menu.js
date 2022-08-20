@@ -33,7 +33,7 @@ const Menu = () => {
     <>
       <div className="sidebar">
         <div className="profile">
-          <img src={davi} alt="" style={{border: "3px solid black", 
+          <img src={davi} alt="" style={{
           margin: "15px auto",
           display: "block",
           width: "120px",
