@@ -4,6 +4,7 @@ import { Sidelinks } from "../sidemenu/sideMenuIcons"
 import { Link } from "react-router-dom";
 import davi from "../../assets/images/davi.jpg"
 import Footer from "../footer/Footer";
+import SocialMdeiaLinks from "../sociallinks/SocialMdeiaLinks";
 
 
 
@@ -43,7 +44,7 @@ const Menu = () => {
           <h1>DAVID MATOVU</h1>
           </Link>
         </div>
-        
+        <SocialMdeiaLinks/>
         {generateLinkContiner()}
         <Footer/>
       </div>
