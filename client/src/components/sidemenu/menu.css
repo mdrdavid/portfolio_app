@@ -1,17 +1,19 @@
 
-.sidebar{
-    background-color: white;
-    color: black;
-    /* flex: 1; */
-    justify-content: flex-start;
-    flex-direction: column;
-    width: 20%;
-    font-size: 14px;
-    position: sticky;
-    top: 0;
-    height: fit-content;
-    border: 2px solid black;
-  }
+  .sidebar{
+    position: fixed;
+    top: 70px;
+    left: 10px;
+    bottom: 0;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 0 15px;
+    background: #040b14;
+    color: white;
+    overflow-y: auto;
+    }
+
   .link-container {
     border-bottom: 1px solid lightgray;
     min-height: 100px;
@@ -43,4 +45,16 @@
     gap: 20px;
     padding: 10px;
     width: 100%;
+  }
+
+  .profile h1{
+  font-size: 24px;
+margin: 0;
+padding: 0;
+font-weight: 600;
+-moz-text-align-last: center;
+text-align-last: center;
+font-family: "Poppins", sans-serif;
+line-height: 1.2;
+
   }
