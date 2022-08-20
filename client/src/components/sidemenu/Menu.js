@@ -3,6 +3,7 @@ import "./menu.css";
 import { Sidelinks } from "../sidemenu/sideMenuIcons"
 import { Link } from "react-router-dom";
 import davi from "../../assets/images/davi.jpg"
+import Footer from "../footer/Footer";
 
 
 
@@ -44,6 +45,7 @@ const Menu = () => {
         </div>
         
         {generateLinkContiner()}
+        <Footer/>
       </div>
     </>
   );
