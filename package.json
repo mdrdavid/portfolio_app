@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/mdrdavid/portfolio_app#readme",
   "dependencies": {
-    "react-auto-typing": "^1.0.0"
+    "react-auto-typing": "^1.0.0",
+    "react-typed": "^1.2.0"
   }
 }
