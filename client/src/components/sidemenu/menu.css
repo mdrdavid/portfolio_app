@@ -1,7 +1,7 @@
 
   .sidebar{
     position: fixed;
-    top: 70px;
+    top: 75px;
     left: 10px;
     bottom: 0;
     width: 300px;
@@ -11,7 +11,7 @@
     padding: 0 15px;
     background: #040b14;
     color: white;
-    overflow-y: auto;
+    /* overflow-y: auto; */
     }
 
   .link-container {

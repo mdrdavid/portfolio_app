@@ -1,5 +1,6 @@
 
-.footer{padding: 15px;
+.footer{
+padding: 15px;
 color: #f4f6fd;
 font-size: 14px;
 position: fixed;
@@ -11,7 +12,7 @@ background: #040b14;
 }
 
 .container{
-    width: 100%;
+width: 100%;
 padding-right: calc(var(--bs-gutter-x) * .5);
 padding-left: calc(var(--bs-gutter-x) * .5);
 margin-right: auto;
