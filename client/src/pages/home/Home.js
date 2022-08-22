@@ -1,15 +1,15 @@
 
 import React from 'react'
-import Hero from '../../components/hero_section/Hero'
+
+import MainArea from '../../components/main_area/MainArea'
 import NavBar from '../../components/navbar/NavBar'
-import Menu from '../../components/sidemenu/Menu'
+
 
 const Home = () => {
   return (
     <div>
         <NavBar/>
-        <Menu/>
-        <Hero/>
+        <MainArea/>
     </div>
   )
 }

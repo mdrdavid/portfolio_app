@@ -24,20 +24,22 @@ transition-duration: 1s;
 transition-property: opacity,transform;
 box-sizing: border-box;
 background: rgba(5, 13, 24, 0.3);
+color: #dfd5ca;
 
 }
 
 .hero p{
 color: #fff;
 margin-bottom: 50px;
-font-size: 14px;
+font-size: 10px;
 font-family: "Poppins", sans-serif;
 }
 
-.hero p span{
+.hero span{
       color: #fff;
       padding-bottom: 4px;
       letter-spacing: 1px;
+      font-size: 14px;
       /* border-bottom: 3px solid #149ddd; */
       padding: 10px;
 }
