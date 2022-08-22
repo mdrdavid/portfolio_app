@@ -7,7 +7,7 @@ import NavBar from '../../components/navbar/NavBar'
 
 const Home = () => {
   return (
-    <div>
+    <div id='home'>
         <NavBar/>
         <MainArea/>
     </div>

@@ -19,6 +19,8 @@
   "homepage": "https://github.com/mdrdavid/portfolio_app#readme",
   "dependencies": {
     "react-auto-typing": "^1.0.0",
+    "react-router-dom": "^6.3.0",
+    "react-scroll": "^1.8.7",
     "react-typed": "^1.2.0"
   }
 }
