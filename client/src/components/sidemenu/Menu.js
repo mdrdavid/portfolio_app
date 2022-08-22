@@ -1,10 +1,9 @@
 import React from "react";
 import "./menu.css";
 import { Sidelinks } from "../sidemenu/sideMenuIcons"
-import { Link } from "react-router-dom";
-import davi from "../../assets/images/davi.jpg"
 import Footer from "../footer/Footer";
 import SocialMdeiaLinks from "../sociallinks/SocialMdeiaLinks";
+import Profile from "./Profile";
 
 
 
@@ -32,18 +31,7 @@ const Menu = () => {
   return (
     <>
       <div className="sidebar">
-        <div className="profile">
-          <img src={davi} alt="" style={{
-          margin: "15px auto",
-          display: "block",
-          width: "120px",
-          border: "8px solid #2c2f3f",
-          borderRadius: "50%", 
-          height: "120px"}}/>
-        <Link to="/" style={{ textDecoration: "none", color: "white", marginTop: "10px"}}>
-          <h1>DAVID MATOVU</h1>
-          </Link>
-        </div>
+        <Profile name={"DAVID MATOVU"}/>
         <SocialMdeiaLinks/>
         {generateLinkContiner()}
         <Footer/>
