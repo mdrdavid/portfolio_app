@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-                <Route path="/">
+                {/* <Route path="/"> */}
                   <Route index element={<Home type="random"/>} />
 
                   <Route path="about" element={<About />} />
@@ -19,7 +19,7 @@ function App() {
                   <Route path="video">
                     <Route path=":id" element={<Video />} />
                   </Route> */}
-                </Route>
+                {/* </Route> */}
               
               </Routes>
     </div>
