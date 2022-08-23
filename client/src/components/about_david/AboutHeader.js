@@ -10,7 +10,7 @@ const AboutHeader = () => {
     return (
         <div className='about'>
             <div className='content'>
-                <AboutTop className="title"/>
+                <AboutTop title={"About"} className="title"/>
                 <BioData title={"web developer"}/>
                 <Facts/>
                 <Skills/>

@@ -56,12 +56,6 @@
     text-transform: capitalize;
   }
 
-  @media screen and(min-width: 576px){
-  .about{
-    max-width: 540px;
-  }
-}
- 
 ul{
   list-style: none;
 }
@@ -69,7 +63,6 @@ ul li{
     margin-bottom: 20px;
     display: flex;
     align-items: center;
-    /* gap: 0.5px; */
 }
 
 .bio-display{
@@ -80,7 +73,7 @@ ul li{
 
 ul .icon{
   font-size: 24px;
-  margin-right: 5px;
+  margin-right: 5px 0 5px 0;
   color: #149ddd;
   line-height: 0;
 }
@@ -110,4 +103,40 @@ ul .icon{
 .lower-content span {
   display: block;
   padding: 3px;
+}
+
+.skilss-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.technology{
+  display: flex;
+  flex-wrap: wrap;
+}
+.progress{
+height: 60px;
+display: block;
+width: 100%;
+justify-content: space-around;
+background: none;
+border-radius: 0;
+}
+
+.progress .skill{
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  background-color: blue;
+}
+
+
+@media screen and(min-width: 576px){
+  .about{
+    max-width: 540px;
+  }
 }
