@@ -2,25 +2,25 @@
 import React from 'react'
 import AboutTop from './AboutTop'
 
-const Skills = () => {
+const Skills = ({js, rj, nd, ht, cs}) => {
   return (
     <div className='skilss-container'>
       <AboutTop title={"Skills"} />
       <div className='technology'>
         <div className='progress'>
-          <span className='skill'>Javascript</span>
+          <span className='skill'>{js}</span>
         </div>
         <div className='progress'>
-          <span className='skill'>ReactJs</span>
+          <span className='skill'>{rj}</span>
         </div>
         <div className='progress'>
-          <span className='skill'>NodeJs</span>
+          <span className='skill'>{nd}</span>
         </div>
         <div className='progress'>
-          <span className='skill'>Html</span>
+          <span className='skill'>{ht}</span>
         </div>
         <div className='progress'>
-          <span className='skill'>Css</span>
+          <span className='skill'>{cs}</span>
         </div>
       </div>
     </div>

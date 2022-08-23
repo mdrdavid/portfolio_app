@@ -13,7 +13,7 @@ const AboutHeader = () => {
                 <AboutTop title={"About"} className="title"/>
                 <BioData title={"web developer"}/>
                 <Facts/>
-                <Skills/>
+                <Skills js={"Javascript"} rj={"ReactJs"} nd={"NodeJs"} ht={"html"} cs={"Css"}/>
             </div>
         </div>
     )
