@@ -1,12 +1,12 @@
 
 import React from 'react'
 import { Link } from "react-router-dom";
-import davi from "../../assets/images/davi.jpg"
+import davi2 from "../../assets/images/davi2.jpg"
 
 const Profile = ({name}) => {
     return (
         <div className="profile">
-            <img src={davi} alt="" style={{
+            <img src={davi2} alt="" style={{
                 margin: "15px auto",
                 display: "block",
                 width: "120px",
