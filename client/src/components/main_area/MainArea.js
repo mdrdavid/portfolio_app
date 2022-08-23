@@ -1,12 +1,11 @@
 
 import React from 'react'
-import Menu from '../sidemenu/Menu'
-import Hero from '../hero_section/Hero'
-const MainArea = () => {
+// import Menu from '../sidemenu/Menu'
+// import Hero from '../hero_section/Hero'
+const MainArea = ({children}) => {
   return (
     <div>
-        <Menu/>
-        <Hero/>
+       {children}
     </div>
   )
 }
