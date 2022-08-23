@@ -11,7 +11,7 @@ const AboutHeader = () => {
         <div className='about'>
             <div className='content'>
                 <AboutTop className="title"/>
-                <BioData/>
+                <BioData title={"web developer"}/>
                 <Facts/>
                 <Skills/>
             </div>
