@@ -7,7 +7,7 @@ const sideBarLinks = {
     { name: "Resume", icon: "resume" },{ name: "Portfolio", icon: "portfolio" },{ name: "Services", icon: "services" }],
   }
   
-  const generateLinkContiner = () =>{
+  const GenerateLinkContiner = () =>{
     const newContainer =[]
     for(const[,value] of Object.entries(sideBarLinks)){
     newContainer.push(
@@ -24,7 +24,7 @@ const sideBarLinks = {
 const GenerateLinkContainer = () => {
   return (
       <>
-      {generateLinkContiner()}
+      <GenerateLinkContiner/>
       </>
   
   )
