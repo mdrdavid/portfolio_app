@@ -10,15 +10,12 @@
     justify-content: space-around;
     align-items: center;
     text-decoration: none;
+    
 }
-.link {
-    color: #149ddd;
-    text-decoration: none;
-    white-space: nowrap;
 
-  }
-  .link,
-.link:focus {
+
+
+.nav-container:focus {
   display: flex;
   align-items: center;
   color: #a8a9b4;
@@ -28,7 +25,3 @@
   font-size: 15px;
 }
 
-  .link:hover {
-    color: #37b3ed;
-    text-decoration: none;
-  }
