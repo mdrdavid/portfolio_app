@@ -30,10 +30,10 @@ const NavBar = () => {
         Home
       </NavbarLink>
       {/* <NavbarLink to="#about" >About</NavbarLink> */}
-      <NavbarLink to="about" activeClass="active" spy={true} smooth={true} offset={50} duration={500} >
+      <NavbarLink to="#about" activeClass="active" spy={true} smooth={true} offset={50} duration={500} >
         About
       </NavbarLink>
-      <NavbarLink to="#resume" activeClass="active" spy={true} smooth={true} offset={50} duration={500} >
+      <NavbarLink to="resume" activeClass="active" spy={true} smooth={true} offset={50} duration={500} >
         Resume
       </NavbarLink>
       <NavbarLink to="#portfolio" activeClass="active" spy={true} smooth={true} offset={50} duration={500} >

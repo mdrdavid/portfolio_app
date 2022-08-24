@@ -1,10 +1,10 @@
 
 import React from 'react'
-import AboutHeader from '../../components/about_david/AboutHeader'
+import AboutHeader from '../../components/aboutDavid/AboutHeader'
 import MainArea from '../../components/main_area/MainArea'
 import NavBar from '../../components/navbar/NavBar'
 import Menu from '../../components/sidemenu/Menu'
-import Hero from "../../components/about_david/AboutHeader"
+import Hero from "../../components/aboutDavid/AboutHeader"
 
 
 const About = () => {
