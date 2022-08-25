@@ -1,6 +1,6 @@
 .resume {
   height: 100%;
-  margin-left: 330px;
+  margin-left: 165px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,9 +22,18 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 10px;
   width: 100%;
   margin: 3px;
   border-color: black;
+  color: #050d18;
+}
+
+.resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
   color: #050d18;
 }
 
@@ -42,8 +51,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: yellow;
-  border: 1px solid black;
 }
 
 .resume-item h4, .education h4, .resume-item .resume-item1 .company-name, .education .resume-item1 .company-name, .resume-item .resume-item2 .company-name, .education .resume-item2 .company-name, .resume-item .resume-item1 h6, .education .resume-item1 h6, .resume-item .resume-item1 .resume-item2 h6, .education .resume-item1 .resume-item2 h6, .resume-item .resume-item2 h6, .resume-item .resume-item2 .education h6, .education .resume-item .resume-item2 h6, .resume-item .education .resume-item2 h6, .education .resume-item2 .resume-item h6, .education .resume-item2 h6, .resume-item .company-name, .education .company-name, .resume-item h6, .education h6 {
@@ -80,7 +87,8 @@
 }
 
 .resume-item .resume-item1 ul li, .education .resume-item1 ul li, .resume-item .resume-item1 .resume-item2 ul li, .education .resume-item1 .resume-item2 ul li, .resume-item .resume-item2 ul li, .resume-item .education .resume-item2 ul li, .education .resume-item .resume-item2 ul li, .education .resume-item2 ul li {
-  padding-bottom: 10px;
+  padding-bottom: 2px;
+  list-style-type: circle;
 }
 
 .resume-item span, .education span {

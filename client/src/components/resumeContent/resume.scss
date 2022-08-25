@@ -1,9 +1,11 @@
 
 $primary-color:black;
 $textColor: #050d18;
+$font-size: 16px;
+$heading: 18px;
 .resume{
     height: 100%;
-    margin-left: 330px;
+    margin-left: 165px;
     display: flex;
     flex-wrap: wrap;
     .content{
@@ -11,20 +13,25 @@ $textColor: #050d18;
         flex-direction: column;
         justify-content: space-between; 
         align-items: center;
+        gap: 10px;
         width: 100%;
         margin: 3px;
         border-color: $primary-color;
         color: $textColor;
     }
 }
-
+.resume-title{
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+}
 .resume-item{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: yellow;
-    border: 1px solid black;
     h4{
         color: $textColor;
         line-height: 18px;
@@ -34,6 +41,7 @@ $textColor: #050d18;
         font-family: "Poppins", sans-serif;
         margin-bottom: 10px;
     }
+    
     .resume-item1{
         display: flex;
         flex-direction: column;
@@ -41,21 +49,25 @@ $textColor: #050d18;
             @extend h4
         }
         span{
-            font-size: 16px;
+            font-size: $font-size;
             background: #e4edf9;
             padding: 5px 15px;
             display: inline-block;
             font-weight: 600;
             margin-bottom: 10px;
         }
+
         h6{
             @extend h4
         }
+
         ul{
             padding-left: 20px;
         }
+
         ul li{
-            padding-bottom: 10px;
+            padding-bottom: 2px;
+            list-style-type: circle;
         }
     
         .resume-item2{
@@ -66,7 +78,7 @@ $textColor: #050d18;
         @extend h4
     }
     span{
-        font-size: 16px;
+        font-size: $font-size;
         background: #e4edf9;
         padding: 5px 15px;
         display: inline-block;
