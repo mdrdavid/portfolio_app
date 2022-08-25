@@ -9,7 +9,7 @@ const ResumeSumary = ({ name, title, course1, course2, date, school, school2, da
       </div>
       <div className='education'>
         <h4>{name}</h4>
-        <p>
+        <p className='info'>
         Innovative and deadline-driven software Engineer with 2+ years of experience 
         designing and developing user-centered software features;
         </p>
@@ -22,9 +22,9 @@ const ResumeSumary = ({ name, title, course1, course2, date, school, school2, da
           <h4 className='course-name'>{course1}</h4>
           <span>{date}</span>
           <p><em>{school}</em></p>
-          <p>While a University I participated in a number of innovtive camps and learnt alot 
-            in line with coordination and team working on different occasions.
-            Also participated in leadership as Guild minister in charge of Academics  at students council 
+          <p className='info'>While at University I participated in a number of problem solving camps and learnt alot 
+            in line with co-ordination and team working on different occassions.
+            Also engaged in leadership as Guild minister in charge of Academics  at students council 
           </p>
         </div>
         <div className='course'>

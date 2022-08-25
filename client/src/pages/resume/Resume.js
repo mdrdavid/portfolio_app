@@ -14,9 +14,9 @@ import Menu from '../../components/sidemenu/Menu'
     <div className='resume' id='resume'>
       <MainArea>
         <Menu/>
-        <Hero>
+        {/* <Hero> */}
         <ResumeContent/>
-        </Hero>
+        {/* </Hero> */}
       </MainArea>
     </div>
     </>

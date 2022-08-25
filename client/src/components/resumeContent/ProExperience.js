@@ -14,13 +14,13 @@ const ProExperience = ({name,title, duty1, duty2,date,location}) => {
           <p><em>{location}</em></p>
           <ul>
             <li>
-            Lead in the design, development, and implementation of the graphic, layout, and production communication materials
+            Lead in the design, development, and implementation of the UI, layout features
             </li>
             <li>
             Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.
             </li>
             <li>
-            upervise the assessment of all graphic materials in order to ensure quality and accuracy of the design
+            Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design
             </li>
             <li>
             Oversee the efficient use of production project budgets ranging from $2,000 - $25,000

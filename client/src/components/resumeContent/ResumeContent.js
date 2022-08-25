@@ -6,7 +6,7 @@ import ResumeDetails from './ResumeDetails'
 
 const ResumeContent = () => {
   return (
-    <div className='resume'>
+    <div className='resumes'>
             <div className='content'>
                 <AboutTop title={"Resume"} className="title"/>
                 <ResumeDetails/>

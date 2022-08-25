@@ -1,11 +1,12 @@
 .resume {
   height: 100%;
-  margin-left: 165px;
+  margin-left: 330px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  background: #f5f8fd;
 }
 
 .resume .content {
@@ -30,7 +31,7 @@
 }
 
 .resume-title {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -89,6 +90,7 @@
 .resume-item .resume-item1 ul li, .education .resume-item1 ul li, .resume-item .resume-item1 .resume-item2 ul li, .education .resume-item1 .resume-item2 ul li, .resume-item .resume-item2 ul li, .resume-item .education .resume-item2 ul li, .education .resume-item .resume-item2 ul li, .education .resume-item2 ul li {
   padding-bottom: 2px;
   list-style-type: circle;
+  text-align: justify;
 }
 
 .resume-item span, .education span {
@@ -105,6 +107,12 @@
 }
 
 .resume-item ul li, .education ul li {
-  padding-bottom: 10px;
+  padding-bottom: 2px;
+  text-align: justify;
+}
+
+.education .info {
+  text-align: justify;
+  line-height: 1.5;
 }
 /*# sourceMappingURL=resume.css.map */
