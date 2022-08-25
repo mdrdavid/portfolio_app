@@ -1,18 +1,17 @@
 
 import React from 'react'
 
-const ResumeSumary = ({ name, title, course1, course2, date, school }) => {
+const ResumeSumary = ({ name, title, course1, course2, date, school, school2, date2 }) => {
   return (
     <div>
       <div className='name'>
-        <h3>{title}</h3>
+        <h4 className='resume-title'>{title}</h4>
       </div>
       <div className='education'>
-        <h3>{name}</h3>
+        <h4>{name}</h4>
         <p>
-        Innovative and deadline-driven Graphic Designer with 3+ years of experience 
-        designing and developing user-centered digital/print marketing material from initial concept to final, 
-        polished deliverable.
+        Innovative and deadline-driven software Engineer with 2+ years of experience 
+        designing and developing user-centered software features;
         </p>
         <ul>
           <li>Kampala uganda</li>
@@ -20,12 +19,18 @@ const ResumeSumary = ({ name, title, course1, course2, date, school }) => {
           <li>davidmatovu@gmail.com</li>
         </ul>
         <div className='course'>
-          <h3 className='course-name'>{course1}</h3>
+          <h4 className='course-name'>{course1}</h4>
           <span>{date}</span>
-          <h6>{school}</h6>
+          <p><em>{school}</em></p>
+          <p>While a University I participated in a number of innovtive camps and learnt alot 
+            in line with coordination and team working on different occasions.
+            Also participated in leadership as Guild minister in charge of Academics  at students council 
+          </p>
         </div>
         <div className='course'>
           <h3 className='course-name'>{course2}</h3>
+          <span>{date2}</span>
+          <p><em>{school2}</em></p>
         </div>
       </div>
 
