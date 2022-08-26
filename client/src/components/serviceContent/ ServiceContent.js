@@ -1,14 +1,18 @@
 
 import React from 'react'
-import AboutTop from '../aboutDavid/AboutTop'
-// import "./resume.css"
+import "../resumeContent/styles/resume.css"
+import Contacts from './contacts/Contacts'
+import { ShowCase } from './ShowCase'
+import Testimonials from './Testimonials'
 
 
 const ServiceContent = () => {
   return (
-    <div className='resumes'>
+    <div className=''>
             <div className='content'>
-                <AboutTop title={"Services"} className="title"/>
+                <ShowCase/>
+                <Testimonials/>
+                <Contacts/>
             </div>
         </div>
   )

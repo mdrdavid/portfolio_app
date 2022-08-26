@@ -1,7 +1,7 @@
 
 import React from 'react'
 import AboutTop from '../aboutDavid/AboutTop'
-import "./resume.css"
+import "./styles/resume.css"
 import ResumeDetails from './ResumeDetails'
 
 const ResumeContent = () => {

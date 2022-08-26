@@ -6,18 +6,18 @@ import ServiceContent from '../../components/serviceContent/ ServiceContent'
 import Menu from '../../components/sidemenu/Menu'
 
 const Services = () => {
-  return (
-      <>
-      <NavBar/>
-      <div className='services' id='services'>
-        <MainArea>
-            <Menu/>
-            <ServiceContent/>
-        </MainArea>
-      </div>
-      </>
-    
-  )
+    return (
+        <>
+            <NavBar />
+            <div className='resume services' id='services'>
+                <MainArea>
+                    <Menu />
+                    <ServiceContent />
+                </MainArea>
+            </div>
+        </>
+
+    )
 }
 
 export default Services
