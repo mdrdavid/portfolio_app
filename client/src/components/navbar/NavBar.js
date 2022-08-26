@@ -36,10 +36,10 @@ const NavBar = () => {
       <NavbarLink to="resume" activeClass="active" spy={true} smooth={true} offset={50} duration={500} >
         Resume
       </NavbarLink>
-      <NavbarLink to="#portfolio" activeClass="active" spy={true} smooth={true} offset={50} duration={500} >
+      <NavbarLink to="portfolio" activeClass="active" spy={true} smooth={true} offset={50} duration={500} >
         Portfolio
       </NavbarLink>
-      <NavbarLink to="#services" activeClass="active" spy={true} smooth={true} offset={50} duration={500} >
+      <NavbarLink to="services" activeClass="active" spy={true} smooth={true} offset={50} duration={500} >
         Services
       </NavbarLink>
       {/* <NavbarLink to="resume" >Resume</NavbarLink>
