@@ -6,8 +6,10 @@ const AboutTop = ({title}) => {
             <h2>{title}</h2>
             <p>I am a developer enthusiast with a passion for programming.
                 ReactJS and Android development are my specialities.
-                I am a hard-working, self-motivated, and responsible person with an outgoing personality and 
-                a good command of language. I enjoy meeting challenges and seeing them through while remaining confident and good-humored under pressure.
+                Throughout my career as a software developer, I have focused on developing 
+                scalable and well-documented code. 
+                I enjoy working collaboratively but can also run with projects independently. 
+                Excited about the prospect of joining a product-driven company.
                 </p>
         </div>
     )

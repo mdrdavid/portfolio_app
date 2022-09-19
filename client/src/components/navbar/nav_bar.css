@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .nav-container{
     margin-bottom: 10px;
     position: sticky;
@@ -10,10 +10,8 @@
     justify-content: space-around;
     align-items: center;
     text-decoration: none;
-    
+    font-family: 'Roboto', sans-serif;
 }
-
-
 
 .nav-container:focus {
   display: flex;
@@ -24,4 +22,36 @@
   transition: 0.3s;
   font-size: 15px;
 }
+.mobile-nav-toggle{
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  font-size: 24px;
+  transition: all 0.4s;
+  outline: none !important;
+  background-color: #149ddd;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  display: none;
+}
 
+@media  (max-width: 768px){
+  .mobile-nav-toggle{
+    display: block;
+    color: red;
+  }
+  .nav-container{
+    background-color: black;
+    /* display: none; */
+    visibility: visible;
+  }
+}
