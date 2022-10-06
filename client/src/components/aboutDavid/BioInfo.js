@@ -11,7 +11,7 @@ const BioInfo =()=>{
             <li>
                 <FiChevronRight className='icon'/>
                 <strong>Birthday:</strong>
-                <span> 28<sup>th</sup> feb 1991</span>
+                <span> 28<sup>th</sup> feb 1996</span>
             </li>
             <li>
                 <FiChevronRight className='icon'/>
