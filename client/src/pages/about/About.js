@@ -1,9 +1,25 @@
 
 import React from 'react'
+import AboutHeader from '../../components/aboutDavid/AboutHeader'
+import MainArea from '../../components/main_area/MainArea'
+import NavBar from '../../components/navbar/NavBar'
+import Menu from '../../components/sidemenu/Menu'
+import Hero from "../../components/aboutDavid/AboutHeader"
+
 
 const About = () => {
   return (
-    <div className='about' id="about" style={{marginTop: "300px"}}>About</div>
+    <>
+     <NavBar/>
+    <div className='abouts' id="about">
+      <MainArea>
+        <Menu/>
+        <Hero>
+          <AboutHeader/>
+        </Hero>
+      </MainArea>
+      </div>
+      </>
   )
 }
 

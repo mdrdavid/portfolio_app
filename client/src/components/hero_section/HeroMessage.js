@@ -3,7 +3,7 @@ import React from 'react'
 import Typed from 'react-typed';
 
 
-const content = () => {
+const Content = () => {
     const message = [" Welcome I AM A"];
     let i = 0;
     let messageArray = [];
@@ -24,7 +24,7 @@ const HeroMessage = ({ name }) => {
         <div className="hero">
             <h1>{name}</h1>
             <p>
-                {content()}
+                <Content/>
                 <Typed
                     strings={['Developer',
                         'Freelancer']}

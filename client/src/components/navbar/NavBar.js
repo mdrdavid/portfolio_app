@@ -2,6 +2,7 @@ import React from 'react'
 import './nav_bar.css'
 import styled from 'styled-components'
 import { NavHashLink as Link } from 'react-router-hash-link';
+import { GiHamburgerMenu } from "react-icons/gi"
 
 
 export const NavbarLink = styled(Link)`
@@ -19,6 +20,10 @@ export const NavbarLink = styled(Link)`
 };
 &:active{
     color: white;
+
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
 };`
 
 
@@ -30,18 +35,19 @@ const NavBar = () => {
         Home
       </NavbarLink>
       {/* <NavbarLink to="#about" >About</NavbarLink> */}
-      <NavbarLink to="#about" activeClass="active" spy={true} smooth={true} offset={50} duration={500} >
+      <NavbarLink to="about" activeClass="active" spy={true} smooth={true} offset={50} duration={500} >
         About
       </NavbarLink>
-      <NavbarLink to="#resume" activeClass="active" spy={true} smooth={true} offset={50} duration={500} >
+      <NavbarLink to="resume" activeClass="active" spy={true} smooth={true} offset={50} duration={500} >
         Resume
       </NavbarLink>
-      <NavbarLink to="#portfolio" activeClass="active" spy={true} smooth={true} offset={50} duration={500} >
+      <NavbarLink to="portfolio" activeClass="active" spy={true} smooth={true} offset={50} duration={500} >
         Portfolio
       </NavbarLink>
-      <NavbarLink to="#services" activeClass="active" spy={true} smooth={true} offset={50} duration={500} >
+      <NavbarLink to="services" activeClass="active" spy={true} smooth={true} offset={50} duration={500} >
         Services
       </NavbarLink>
+      <GiHamburgerMenu className='mobile-nav-toggle'/>
       {/* <NavbarLink to="resume" >Resume</NavbarLink>
       <NavbarLink to="/portfolio" >Portfolio</NavbarLink>
       <NavbarLink to="/services" >Services</NavbarLink> */}

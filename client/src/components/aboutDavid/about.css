@@ -1,0 +1,142 @@
+
+.about{
+  height: 100%;
+  margin-left: 330px;
+
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 3px;
+}
+.content .title h2 {
+    font-weight: 700;
+    font-size: 26px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+    text-align: start;
+    border-bottom: 3px solid #149ddd;
+  }
+
+  .content .title p{
+    margin-top: 0;
+    text-align: justify;
+    line-height: normal;
+    padding: 2px;
+  }
+
+  .profile-info{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .profile-image{
+    width: 40%;
+  }
+  .profile-message p {
+    margin-top: 0;
+  }
+
+  .profile-message h3{
+    font-weight: 700;
+    font-size: 26px;
+    color: #173b6c;
+    font-family: "Raleway", sans-serif;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: capitalize;
+  }
+
+ul{
+  list-style: none;
+}
+ul li{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.bio-display{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+ul .icon{
+  font-size: 24px;
+  margin-right: 5px 0 5px 0;
+  color: #149ddd;
+  line-height: 0;
+}
+
+.italic{
+  font-style: italic;
+  text-align: start;
+  margin-left: 5px;
+
+}
+
+.italic span{
+  display: block;
+  padding: 3px;
+}
+
+.lower-content{
+  text-align: start;
+  padding: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 5px;
+  line-break: auto;
+  flex-wrap: wrap;
+}
+
+.lower-content span {
+  display: block;
+  padding: 3px;
+}
+
+.skilss-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.technology{
+  display: flex;
+  flex-wrap: wrap;
+}
+.progress{
+height: 60px;
+display: block;
+width: 100%;
+justify-content: space-around;
+background: none;
+border-radius: 0;
+}
+
+.progress .skill{
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  background-color: blue;
+}
+
+
+@media screen and(min-width: 576px){
+  .about{
+    max-width: 540px;
+  }
+}
